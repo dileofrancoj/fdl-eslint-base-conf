@@ -1,12 +1,12 @@
 {
-  "name": "fdl-eslint-base-conf",
-  "version": "0.0.1",
+  "name": "eslint-fdl-base-conf",
+  "version": "0.0.2",
   "type": "module",
-  "main": "./dist/fdl-eslint-base-conf.umd.cjs",
+  "main": "./dist/eslint-fdl-base-conf.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/fdl-eslint-base-conf.js",
-      "require": "./dist/fdl-eslint-base-conf.cjs"
+      "import": "./dist/eslint-fdl-base-conf.js",
+      "require": "./dist/eslint-fdl-base-conf.cjs"
     }
   },
   "publishConfig": {

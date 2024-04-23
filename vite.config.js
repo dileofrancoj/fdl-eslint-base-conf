@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.js"),
-      name: "fdl-eslint-base-conf",
-      fileName: "fdl-eslint-base-conf",
+      name: "eslint-fdl-base-conf",
+      fileName: "eslint-fdl-base-conf",
     },
   },
 });
