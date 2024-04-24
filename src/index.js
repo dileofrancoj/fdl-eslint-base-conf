@@ -1,11 +1,11 @@
 module.exports = {
-    extends: ['standard-with-typescript', 'eslint-config-important-stuff'],
+    extends: ['standard-with-typescript', 'important-stuff'],
     plugins: ['simple-import-sort', 'unused-imports'],
     env: {
       node: true,
     },
     globals: {
-      "NodeJS": true
+      "NodeJS": true // comando para reconocer variables globals y bypassear el no undef
     },
     rules: {
       'simple-import-sort/exports': "error",
