@@ -1,6 +1,6 @@
 {
   "name": "eslint-fdl-base-conf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/eslint-fdl-base-conf.umd.cjs",
   "exports": {
